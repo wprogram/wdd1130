@@ -1,0 +1,63 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik+Vinyl&display=swap');
+
+:root {
+  --primary-color:#616894;
+  --secondary-color: #ccd4e3 ;
+  --accent1-color: #436096;
+  --accent2-color: #9494b3;
+
+  --heading-font: "Rubik Vinyl";
+  --paragraph-font: 'Roboto', Helvetica, sans-serif;
+
+  --nav-background-color: #616894;
+  --nav-link-color: #ffffff;
+  --nav-hover-link-color: #7598c5;
+  --nav-hover-background-color: #ccd4e3; 
+  --headline-color-on-white: #396E94; 
+  --headline-color-on-color: white; 
+  --paragraph-color-on-white: #396E94; 
+  --paragraph-color-on-color: white; 
+  --paragraph-background-color: #396E94;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+  }
+
+  header {
+    padding: 20px;
+    background-color: var(--paragraph-background-color);
+  }
+
+  p {
+    padding: 25px;
+  }
+
+  nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2em;
+    display: flex;
+  }
+
+  nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+  }
+
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
