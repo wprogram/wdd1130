@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300;1,400&display=swap');
 
 :root {
   --primary-color:#616894;
@@ -6,8 +6,8 @@
   --accent1-color: #436096;
   --accent2-color: #9494b3;
 
-  --heading-font: "Rubik Vinyl";
-  --paragraph-font: 'Roboto', Helvetica, sans-serif;
+  --heading-font: 'Roboto';
+  --paragraph-font: sans-serif,'Rubik Vinyl';
 
   --nav-background-color: #616894;
   --nav-link-color: #ffffff;
